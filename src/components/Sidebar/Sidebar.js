@@ -37,7 +37,7 @@ const SidebarComponent = ({search, sortByDate, sortByPopularity, sortByRatings})
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="sort">
-                <Accordion.Header>Sort</Accordion.Header>
+                <Accordion.Header>Sort...</Accordion.Header>
                 <Accordion.Body>
                     <Form.Select aria-label="Sort By -" onChange={handleSortChange}>
                         <option>--Sort By--</option>
