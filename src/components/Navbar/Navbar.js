@@ -20,7 +20,7 @@ const NavbarComponent = () => {
     return ( 
         <Navbar variant="dark" bg="dark">
             <Container>
-                <Navbar.Brand href="/">BiP Movies</Navbar.Brand>
+                <Navbar.Brand href="/">Display SHows Or Tax Data (Later )</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                 <Navbar.Text>
