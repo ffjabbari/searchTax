@@ -21,17 +21,17 @@ const SidebarComponent = ({search, sortByDate, sortByPopularity, sortByRatings})
     return ( 
         <Accordion defaultActiveKey="search">
             <Accordion.Item eventKey="search">
-                <Accordion.Header>Search</Accordion.Header>
+                <Accordion.Header>Enter Search Keyword</Accordion.Header>
                 <Accordion.Body>
                     <InputGroup className="mb-3">
                         <Form.Control
-                            placeholder="Enter Movie Name"
+                            placeholder="Enter Show's Name"
                             aria-label="Search"
                             aria-describedby="Search by movie name"                    
                             onChange={handleOnChange}
                         />
                         <Button variant="outline-success" onClick={()=>(search(1,SearchQuery))}>
-                            Search
+                            Search...
                         </Button>
                     </InputGroup>
                 </Accordion.Body>
