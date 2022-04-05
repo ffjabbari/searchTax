@@ -9,7 +9,7 @@ const Pagination = ({currentPage, totalPages,changeCurrentPage}) => {
                     {
                         (currentPage < 2)
                             ? 
-                            <Button onClick={()=> changeCurrentPage(-1)} disabled>... sPrev</Button>
+                            <Button onClick={()=> changeCurrentPage(-1)} disabled>... Prev</Button>
                             :
                             <Button onClick={()=> changeCurrentPage(-1)}>...Prev</Button>            
                     }
